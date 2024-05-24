@@ -115,7 +115,7 @@ img{
 }
 
 .box-up-right .right-item{
-  height: 30%;
+  height: 25%;
   display: flex;
   padding: 10px 0;
   border-bottom: 1px dashed #ccc;
@@ -126,8 +126,12 @@ img{
 }
 
 .right-item img{
-  width: 40%;
+  width: 35%;
   margin-right: 10px;
+}
+
+.right-item:last-child img{
+  width: 46%;
 }
 
 .box-down{
