@@ -1,0 +1,291 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+a:hover{
+  color: rgb(31, 63, 190);
+  text-decoration: underline
+}
+
+img{
+  object-fit: cover;
+  object-position: top;
+  width: 100%;
+}
+
+.inner-title{
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.time{
+  color: rgba(128, 128, 128, 0.511);
+  font-size: 0.8rem;
+}
+
+/* Header */
+.news{
+  height: 10vh;
+  background: linear-gradient(to bottom, white,rgba(128, 128, 128, 0.442));
+  display: flex;
+  align-items: center;
+  padding-left: 3%;
+  color: #146C68;
+}
+.header-menu{
+  height: 5vh;
+  background: #146C68;
+  display: flex;
+  align-items: center;
+}
+
+.header-menu ul{
+  display: flex;
+  text-transform: uppercase;
+  height: 100%;
+  padding-left: 2%;
+}
+
+.header-menu ul li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 15px;
+  border-right: 1px solid #ccc;
+}
+
+.header-menu ul li:hover{
+  background: #185e5b;
+}
+
+.header-menu ul li a:hover{
+  text-decoration: none;
+}
+
+.header-menu ul li a{
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+/* Body */
+.container{
+  padding: 0 1.1%;
+  margin-top: 2.2%;
+  display: flex;
+  flex-direction: column;
+}
+
+.box-main{
+  display: flex;
+  justify-content: space-between;
+}
+
+/* News */
+.box-news{
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.box-news .box-up{
+  height: 45%;
+  display: flex;
+}
+
+.box-up-left{
+  width: 50%;
+  padding-right: 20px;
+}
+
+.box-up-right{
+  width: 50%;
+}
+
+.box-up-right .right-item{
+  height: 30%;
+  display: flex;
+  padding: 10px 0;
+  border-bottom: 1px dashed #ccc;
+}
+
+.right-item:last-child{
+  border-bottom: none;
+}
+
+.right-item img{
+  width: 40%;
+  margin-right: 10px;
+}
+
+.box-down{
+  margin-top: 3%;
+}
+
+.down-item{
+  height: 50%;
+  display: flex;
+  background-color: #F5F5F5;
+  margin-bottom: 2%;
+  border: 1px solid #cccccc89;
+}
+
+.box-down .down-item img{
+  width: 30%;
+}
+
+.down-content{
+  padding: 2%
+}
+
+.down-content h3{
+  margin-top: 3%;
+}
+/* END NEWS */
+
+
+/* OTHER & SURVEY FORM */
+.others{
+  width: 25vw;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.other-box{
+  width: 100%;
+  height: 33%;
+  background-color: #F5F5F5;
+  margin-bottom: 20px;
+  border-top: 2px solid #146C68;
+  padding: 10px;
+}
+
+.other-box span{
+  display: block;
+  padding-left: 6%;
+  margin-bottom: 5%;
+  color: #146C68;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.form{
+  background-color: #FFFFFF;
+  height: 85%;
+  padding: 2%;
+  line-height: 1.8;
+}
+
+.form form ul li{
+  padding: 1% 0;
+}
+.form form ul li input{
+  margin-right: 10px;
+}
+
+input.submit-btn{
+  width: 30%;
+  height: 40%;
+  background-color: #A4A9AD;
+  color: #FFFFFF;
+  border: none;
+  font-weight: bold;
+  font-size: 15px;
+
+}
+
+input.submit-btn:last-child{
+  background-color: #F05162;
+}
+
+.btn{
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0 30px;
+}
+
+#list{
+  padding: 0 4%;
+}
+
+#list li{
+  list-style: '❖';
+  padding-left: 2%;
+  margin: 7% 5%;
+}
+
+#list li::marker{
+  color: #F05162;
+}
+
+/* END OTHER & SURVEY FORM */
+
+/* MORE BOX */
+.box-more{
+  display: flex;
+  justify-content: space-between;
+}
+
+.section{
+  width: 48%;
+}
+
+.inner-header span{
+  display: inline-block;
+  background: #9D262A;
+  color: white;
+  font-weight: 600;
+  width: 12%;
+  text-align: center;
+  padding: 1% 0;
+}
+
+.main-content{
+  padding-top: 5px;
+  border-top: 2.5px solid #ccc;
+}
+
+.image-title{
+  display: flex;
+  padding: 15px 0;
+}
+
+.image-title img{
+  width: 40%;
+  height: 150px
+}
+
+.image-title a{
+  padding: 1% 0 0 3%;
+}
+
+.others-link{
+  list-style-position: inside;
+}
+
+.others-link li{
+  padding: 2% 0;
+  border-top: 1px dashed #ccccccc5;
+  list-style-type: disc;
+}
+
+/* END MORE BOX */
+
+/* Footer */
+footer{
+  margin-top: 3%;
+}
